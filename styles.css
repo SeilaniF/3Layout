@@ -1,0 +1,62 @@
+* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background: #007bff; /* Fundo azul */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilizando a navegação */
+nav {
+    background: #333; /* Fundo escuro */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilizando a lista de navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Organiza os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Estilizando os itens da lista */
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+/* Estilizando os links da navegação */
+nav ul li a {
+    color: white; /* Texto branco */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Efeito ao passar o mouse nos links */
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilizando o conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background: #222; /* Fundo escuro */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    position: absolute; /* Fixa o rodapé */
+    width: 100%; /* Ocupa toda a largura */
+    bottom: 0; /* Fica na parte inferior da tela */
+}
